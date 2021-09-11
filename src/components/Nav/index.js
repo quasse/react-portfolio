@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Nav() {
+function Nav(props) {
+  const { sections, currentSection, setCurrentSection } = props;
+
   return (
     <header>
       <h2>
@@ -8,10 +10,19 @@ function Nav() {
       </h2>
       <nav>
         <ul>
-          <li>About me</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-          <li>Resume</li>
+          {sections.map((section) => {
+            return (
+              <li
+                key={section.name}
+                onClick={() => {
+                  setCurrentSection(section);
+                  console.log(section);
+                }}
+              >
+                {section.name}
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>
