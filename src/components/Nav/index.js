@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Nav(props) {
-  const { sections, currentSection, setCurrentSection } = props;
+  const { sections, setCurrentSection } = props;
 
   return (
     <header>
@@ -13,10 +13,10 @@ function Nav(props) {
           {sections.map((section) => {
             return (
               <li
+                className="nav-list-item"
                 key={section.name}
                 onClick={() => {
                   setCurrentSection(section);
-                  console.log(section);
                 }}
               >
                 {section.name}

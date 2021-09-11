@@ -25,6 +25,11 @@ a:active {
   color: white;
 }
 
+.nav-list-item:hover {
+  color: red;
+  cursor: pointer;
+}
+
 header {
   padding: 25px 35px;
   background-color: var(--secondary-color);
@@ -45,4 +50,31 @@ header nav ul {
 
 header nav ul li {
   margin: 0 10px;
+}
+
+.about {
+  margin: auto;
+  width: 600px;
+  padding: 10px;
+}
+
+.about h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio p {
+  margin-left: 20px;
+}
+
+.bio img {
+  width: 20%;
+  border-radius: 5%;
+  width: 300px;
 }

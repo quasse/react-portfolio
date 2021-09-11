@@ -19,7 +19,7 @@ function App() {
     <div>
       <Nav
         sections={sections}
-        currentSection={currentSection}
+        //currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       ></Nav>
       {currentSection.htmlTag}
