@@ -4,7 +4,7 @@ import headshot from "../../assets/images/headshot.jpg";
 function About() {
   return (
     <section className="about">
-      <h2>About me</h2>
+      <h2>About Me</h2>
       <article className="bio">
         <img src={headshot} alt="headshot" />
         <p>
