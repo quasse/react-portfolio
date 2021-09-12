@@ -20,7 +20,7 @@ function Contact() {
   };
 
   const handleChange = (e) => {
-    if (e.target.name == "email") {
+    if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
         setErrorMessage("You must submit a valid email");
