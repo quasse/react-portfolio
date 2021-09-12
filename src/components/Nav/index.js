@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Nav(props) {
   const { sections, currentSection, setCurrentSection } = props;
 
-  const [navSelected, setNavSelected] = useState(false);
+  const [navSelected, setNavSelected] = useState(true);
 
   return (
     <header>
