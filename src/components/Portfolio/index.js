@@ -18,6 +18,21 @@ function Portfolio() {
       img: require("../../assets/images/note-taker-screenshot.png").default,
       link: "https://shielded-waters-60571.herokuapp.com/",
     },
+    {
+      name: "Workday Scheduler",
+      img: require("../../assets/images/scheduler-screenshot.png").default,
+      link: "https://quasse.github.io/scheduler/",
+    },
+    {
+      name: "Weather Forecaster",
+      img: require("../../assets/images/forecaster_screenshot.png").default,
+      link: "https://quasse.github.io/forecaster/",
+    },
+    {
+      name: "Tech Blog",
+      img: require("../../assets/images/tech-blog-screenshot.png").default,
+      link: "https://blooming-depths-94109.herokuapp.com/",
+    },
   ];
 
   return (
@@ -27,7 +42,9 @@ function Portfolio() {
         {projects.map((project) => {
           return (
             <div className="project" key={project.name}>
-              <img src={project.img} />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={project.img} alt="Link to developed site" />
+              </a>
               <h3>{project.name}</h3>
             </div>
           );

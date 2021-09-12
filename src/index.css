@@ -92,9 +92,6 @@ textarea {
   margin: 3px 0;
 }
 
-.portfolio {
-}
-
 .portfolio h2 {
   text-align: center;
   margin: 20px;
@@ -102,7 +99,7 @@ textarea {
 
 .projects {
   width: 75vw;
-  height: 50vw;
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -126,6 +123,7 @@ textarea {
   object-fit: cover;
   z-index: 0;
   border: 5%;
+  border-radius: 5%;
 }
 
 .project h3 {
