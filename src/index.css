@@ -20,12 +20,14 @@ body {
 header a:hover,
 header a:visited,
 header a:link,
-header a:active {
+header a:active,
+footer ul li a {
   text-decoration: none;
   color: white;
 }
 
-.nav-list-item:hover {
+.nav-list-item:hover,
+footer ul li a:hover {
   color: red;
   cursor: pointer;
 }
@@ -67,6 +69,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .bio p {
@@ -90,6 +93,10 @@ textarea {
   width: 100%;
   padding: 5px;
   margin: 3px 0;
+}
+
+.portfolio {
+  margin-bottom: 100px;
 }
 
 .portfolio h2 {
@@ -156,13 +163,16 @@ textarea {
 
 footer {
   background-color: var(--secondary-color);
-  padding: 25px 35px;
   color: white;
   display: flex;
   justify-content: space-evenly;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+footer h4 {
+  margin-top: 10px;
 }
 
 footer ul {

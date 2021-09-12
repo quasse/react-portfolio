@@ -20,6 +20,7 @@ function App() {
     <div>
       <Nav sections={sections} setCurrentSection={setCurrentSection}></Nav>
       {currentSection.htmlTag}
+      <Footer />
     </div>
   );
 }
