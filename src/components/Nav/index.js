@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Nav(props) {
-  const { sections, setCurrentSection } = props;
+  const { sections, currentSection, setCurrentSection } = props;
+
+  const [navSelected, setNavSelected] = useState(false);
 
   return (
     <header>
@@ -13,10 +15,15 @@ function Nav(props) {
           {sections.map((section) => {
             return (
               <li
-                className="nav-list-item"
+                className={`nav-list-item ${
+                  currentSection.name === section.name &&
+                  navSelected &&
+                  "navActive"
+                }`}
                 key={section.name}
                 onClick={() => {
                   setCurrentSection(section);
+                  setNavSelected(true);
                 }}
               >
                 {section.name}
