@@ -17,10 +17,10 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
+header a:hover,
+header a:visited,
+header a:link,
+header a:active {
   text-decoration: none;
   color: white;
 }
@@ -134,4 +134,22 @@ textarea {
   background-color: var(--quaternary-color);
   position: relative;
   bottom: 100px;
+}
+
+.resume {
+  width: 50vw;
+  margin: auto;
+}
+
+.resume h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.proficiencies {
+  margin: 10px 0;
+}
+
+.resume li {
+  margin: 10px;
 }
