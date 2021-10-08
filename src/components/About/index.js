@@ -9,9 +9,9 @@ function About() {
         <img src={headshot} alt="headshot" />
         <p>
           {" "}
-          Hello! Thanks for taking the time to read this. I am a newly-minted
-          web developer hoping to show off my work to you. Here's a little bit
-          about me: I'm a former reporter who is looking to switch careers. My
+          Hello! Thanks for taking the time to read this. I'm a newly-minted web
+          developer hoping to show off my work to you. Here's a little bit about
+          me: I'm a former reporter who is looking to switch careers. My
           interest in programming began in college when I took several computer
           science courses. Then I decided to give reporting a go, and I loved
           it! <br />
