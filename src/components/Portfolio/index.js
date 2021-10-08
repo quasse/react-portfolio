@@ -3,6 +3,11 @@ import React from "react";
 function Portfolio() {
   const projects = [
     {
+      name: "Game Library",
+      img: require("../../assets/images/game-screenshot.png").default,
+      link: "https://attsgames.herokuapp.com/",
+    },
+    {
       name: "Crypto Tracker",
       img: require("../../assets/images/crypto-tracker-screenshot.png").default,
       link: "https://warm-coast-72937.herokuapp.com/",
@@ -27,11 +32,6 @@ function Portfolio() {
       name: "Weather Forecaster",
       img: require("../../assets/images/forecaster_screenshot.png").default,
       link: "https://quasse.github.io/forecaster/",
-    },
-    {
-      name: "Tech Blog",
-      img: require("../../assets/images/tech-blog-screenshot.png").default,
-      link: "https://blooming-depths-94109.herokuapp.com/",
     },
   ];
 
