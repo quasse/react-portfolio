@@ -3,19 +3,20 @@ import React from "react";
 function Portfolio() {
   const projects = [
     {
-      name: "Note Taker",
-      img: require("../../assets/images/note-taker-screenshot.png").default,
-      link: "https://shielded-waters-60571.herokuapp.com/",
+      name: "Game Library",
+      img: require("../../assets/images/game-screenshot.png").default,
+      link: "https://attsgames.herokuapp.com/",
     },
     {
-      name: "Workday Scheduler",
-      img: require("../../assets/images/scheduler-screenshot.png").default,
-      link: "https://quasse.github.io/scheduler/",
+      name: "Crypto Tracker",
+      img: require("../../assets/images/crypto-tracker-screenshot.png").default,
+      link: "https://warm-coast-72937.herokuapp.com/",
     },
     {
-      name: "Weather Forecaster",
-      img: require("../../assets/images/forecaster_screenshot.png").default,
-      link: "https://quasse.github.io/forecaster/",
+      name: "Stock News",
+      img: require("../../assets/images/stock-news-screenshot-crop.png")
+        .default,
+      link: "https://quasse.github.io/group-project/",
     },
   ];
 
