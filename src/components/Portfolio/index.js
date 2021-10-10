@@ -18,6 +18,21 @@ function Portfolio() {
         .default,
       link: "https://quasse.github.io/group-project/",
     },
+    {
+      name: "Note Taker",
+      img: require("../../assets/images/note-taker-screenshot.png").default,
+      link: "https://shielded-waters-60571.herokuapp.com/",
+    },
+    {
+      name: "Workday Scheduler",
+      img: require("../../assets/images/scheduler-screenshot.png").default,
+      link: "https://quasse.github.io/scheduler/",
+    },
+    {
+      name: "Weather Forecaster",
+      img: require("../../assets/images/forecaster_screenshot.png").default,
+      link: "https://quasse.github.io/forecaster/",
+    },
   ];
 
   return (
