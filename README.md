@@ -12,7 +12,7 @@ A portfolio made from scratch with React
 
 ## Website
 
-https://quasse.github.io/react-portfolio/
+https://samorgen.github.io/react-portfolio/
 
 ## Screenshot
 
