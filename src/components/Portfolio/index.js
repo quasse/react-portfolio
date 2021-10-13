@@ -16,7 +16,7 @@ function Portfolio() {
       name: "Stock News",
       img: require("../../assets/images/stock-news-screenshot-crop.png")
         .default,
-      link: "https://quasse.github.io/group-project/",
+      link: "https://samorgen.github.io/group-project/",
     },
     {
       name: "Note Taker",
@@ -26,12 +26,12 @@ function Portfolio() {
     {
       name: "Workday Scheduler",
       img: require("../../assets/images/scheduler-screenshot.png").default,
-      link: "https://quasse.github.io/scheduler/",
+      link: "https://samorgen.github.io/scheduler/",
     },
     {
       name: "Weather Forecaster",
       img: require("../../assets/images/forecaster_screenshot.png").default,
-      link: "https://quasse.github.io/forecaster/",
+      link: "https://samorgen.github.io/forecaster/",
     },
   ];
 
