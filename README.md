@@ -8,7 +8,11 @@ This app is a one-stop shop for all my best work, and the best part is, it is al
 
 Take a look around by exploring the codebase. You will find features from React that are used in websites across the world like components and props. I even through a few hooks in there to keep up with the times.
 
-I hope you enjoy my work. I enjoyed making it.
+The bulk of the site was made in under a week, and it is meant to show off how I could quickly and elegantly stand up a website in as little time as possible.
+
+It is organized using four pages, the about page, projects page, resume page and contact page. Those are all pretty self-explanatory, so I won't get too deep into the weeds.
+
+Please let me know if you have any questions. I hope you enjoy my work. I enjoyed making it.
 
 ## Built with
 
